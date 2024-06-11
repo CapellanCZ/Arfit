@@ -30,7 +30,7 @@ public class Login extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        background1 = new com.arfit.components.background();
+        background1 = new com.arfit.components.PanelBG();
         loginidtxt = new javax.swing.JTextField();
         loginemailtxt = new javax.swing.JTextField();
         signuptxt = new javax.swing.JLabel();
@@ -46,8 +46,10 @@ public class Login extends javax.swing.JFrame {
 
         background1.setBackground(new java.awt.Color(255, 255, 255));
 
+        loginidtxt.setBackground(new java.awt.Color(246, 246, 246));
         loginidtxt.setForeground(java.awt.Color.gray);
         loginidtxt.setText("Student ID");
+        loginidtxt.setBorder(javax.swing.BorderFactory.createMatteBorder(10, 10, 10, 10, new java.awt.Color(246, 246, 246)));
         loginidtxt.setMargin(new java.awt.Insets(10, 10, 10, 10));
         loginidtxt.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
@@ -63,8 +65,10 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
+        loginemailtxt.setBackground(new java.awt.Color(246, 246, 246));
         loginemailtxt.setForeground(java.awt.Color.gray);
         loginemailtxt.setText("NU Email");
+        loginemailtxt.setBorder(javax.swing.BorderFactory.createMatteBorder(10, 10, 10, 10, new java.awt.Color(246, 246, 246)));
         loginemailtxt.setMargin(new java.awt.Insets(10, 10, 10, 10));
         loginemailtxt.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
@@ -216,7 +220,7 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private com.arfit.components.background background1;
+    private com.arfit.components.PanelBG background1;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel5;
